@@ -38,7 +38,7 @@ size that matches up exactly, so we have to pick one and scale and/or crop it.
 
 Also affecting this is that either SurfaceView or TextureView can be used to display the preview.
 SurfaceView has better performance, but does not support cropping. TextureView is more powerful,
-but has some performance overhead, and is only supported on Android API 14+. We use SurfaceView by
+but has some performance overhead, and is only supported on Android API 14+. We use TextureView by
 default.
 
 To avoid aspect ratio distortion, we can crop the preview. However, in some combinations of
